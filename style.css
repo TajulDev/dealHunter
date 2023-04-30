@@ -397,3 +397,29 @@ footer p {
     color: #424242;
     text-align: center;
 }
+
+@media screen and (max-width:525px) {
+    .banner_content h1 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .banner_content p {
+
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+
+    .how_works .card_collection {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .why_sell .card_collection {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .benefits_selling .benefits_table {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
