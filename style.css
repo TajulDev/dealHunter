@@ -411,15 +411,60 @@ footer p {
 
     }
 
+    .how_works .header_content h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .how_works .header_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
     .how_works .card_collection {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .why_sell .header_content h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .why_sell .header_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .why_sell .card_collection .single_card p {
+        font-weight: 700;
+        font-size: 16px;
     }
 
     .why_sell .card_collection {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .benefits_selling .header_content h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .benefits_selling .header_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
     .benefits_selling .benefits_table {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .faqs .header_content h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .faqs .header_content p {
+        font-size: 16px;
+        line-height: 24px;
     }
 }
