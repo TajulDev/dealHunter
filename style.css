@@ -1,0 +1,11 @@
+.container {
+    max-width: 1200px;
+}
+
+a.nav-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #424242;
+}
