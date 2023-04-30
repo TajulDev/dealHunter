@@ -237,3 +237,59 @@ a.nav-link {
     line-height: 32px;
     color: #212121;
 }
+
+/* benefits of selling section css */
+.benefits_selling {
+    padding: 80px 0;
+}
+
+.benefits_selling .header_content {
+    max-width: 588px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.benefits_selling .header_content h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #212121;
+    margin-bottom: 16px;
+}
+
+.benefits_selling .header_content p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #424242;
+}
+
+.benefits_selling .benefits_table {
+    max-width: 860px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.benefits_selling .benefits_table .table_th {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #212121;
+    text-align: center;
+    padding: 16px 24px;
+    border: 1px solid #E0E0E0;
+}
+
+.benefits_selling .benefits_table .table_td {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+    padding: 16px 24px;
+    border: 1px solid #E0E0E0;
+}
