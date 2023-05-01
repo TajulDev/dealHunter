@@ -218,6 +218,9 @@ a.nav-link {
 }
 
 .why_sell .header_content p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
     color: #424242;
 }
 
@@ -371,7 +374,7 @@ footer {
 }
 
 footer .footer_tag {
-    width: 254px;
+    width: 260px;
     margin: 0 auto;
     display: flex;
     gap: 8px;
