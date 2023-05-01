@@ -296,6 +296,7 @@ a.nav-link {
 .benefits_selling .benefits_table #th1 {
     border-radius: 8px 0px 0px 0px !important;
 }
+
 .benefits_selling .benefits_table #th2 {
     border-radius: 0px 8px 0px 0px !important;
 }
@@ -414,6 +415,7 @@ footer p {
     line-height: 20px;
     color: #424242;
     text-align: center;
+    padding: 0 16px;
 }
 
 @media screen and (max-width:991px) {
@@ -493,6 +495,7 @@ footer p {
 
     .benefits_selling .benefits_table {
         grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
     }
 
     .faqs .header_content h1 {
