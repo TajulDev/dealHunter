@@ -360,6 +360,10 @@ a.nav-link {
     padding: 18.5px 24px !important;
 }
 
+.accordion-button {
+    gap: 26px;
+}
+
 .accordion-button::after {
     background-image: url('assets/plus-circle.svg');
 }
