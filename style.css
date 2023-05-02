@@ -66,6 +66,10 @@ a.nav-link {
     color: #424242;
 }
 
+input:focus {
+    outline: none !important;
+}
+
 /* hero banner section css */
 
 .banner {
@@ -99,24 +103,46 @@ a.nav-link {
     margin-bottom: 24px;
 }
 
-.banner_content .input-group {
+.banner_content .input_lg {
+    background: #FFFFFF;
+    padding: 4px 4px 4px 20px;
+    border-radius: 8px;
+}
+
+.banner_content .input {
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
     border-radius: 8px;
-    padding: 4px 4px 4px 1px;
-    margin-bottom: 16px;
+    padding: 4px 4px 4px 10px;
+    /* margin-bottom: 16px; */
 }
 
-.banner_content input::placeholder {
-    background-image: url('assets/location.png');
+.banner_content .input_new {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 0px 0px 0px 10px;
+    /* margin-bottom: 16px; */
+}
+
+
+.banner_content .input_new input::placeholder {
+    /* background-image: url('assets/location.png');
     background-repeat: no-repeat;
-    background-position: left 3% center;
+    background-position: left 3% center; */
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #616161;
-    padding: 16px 48px;
+    padding: 16px 0px;
 }
+
+.form-control:focus {
+    outline: none !important;
+
+    box-shadow: none
+}
+
 
 .banner_content span#basic-addon2,
 .banner_content span#basic-addon3 {
@@ -361,10 +387,12 @@ a.nav-link {
     background-color: transparent;
     padding: 18.5px 24px !important;
 }
-hr{
+
+hr {
     color: #E4E4E4;
     height: 1px;
 }
+
 .accordion-button {
     gap: 24px;
 }
@@ -454,6 +482,11 @@ footer p {
         line-height: 44px;
     }
 
+    .banner_content .input_lg {
+        display: none !important;
+
+    }
+
     .banner_content p {
 
         font-size: 16px;
@@ -526,5 +559,28 @@ footer p {
     .faqs .header_content p {
         font-size: 16px;
         line-height: 24px;
+    }
+
+    /* benifits selling */
+    .how_works {
+        padding: 48px 0;
+    }
+
+    .benefits_selling {
+        padding: 48px 0;
+    }
+
+    .why_sell {
+        padding: 48px 0;
+    }
+
+    /* benifits selling */
+
+    .faqs {
+        padding: 40px 0;
+    }
+
+    footer {
+        padding-top: 30px;
     }
 }
