@@ -361,7 +361,10 @@ a.nav-link {
     background-color: transparent;
     padding: 18.5px 24px !important;
 }
-
+hr{
+    color: #E4E4E4;
+    height: 1px;
+}
 .accordion-button {
     gap: 24px;
 }
