@@ -363,7 +363,7 @@ a.nav-link {
 }
 
 .accordion-button {
-    gap: 26px;
+    gap: 24px;
 }
 
 .accordion-button::after {
