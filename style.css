@@ -118,7 +118,8 @@ a.nav-link {
     padding: 16px 48px;
 }
 
-.banner_content span#basic-addon2,.banner_content span#basic-addon3 {
+.banner_content span#basic-addon2,
+.banner_content span#basic-addon3 {
     background: #EA2227;
     border-radius: 4px;
     padding: 16px 24px;
@@ -436,6 +437,10 @@ footer p {
         font-size: 10px;
         line-height: 10px;
         color: #424242;
+    }
+
+    .banner {
+        height: 654px;
     }
 
     .banner_content h1 {
