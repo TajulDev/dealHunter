@@ -69,7 +69,7 @@ a.nav-link {
 /* hero banner section css */
 
 .banner {
-    background-image: url('assets/Hero\ BG.png');
+    background-image: url('assets/hero_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
