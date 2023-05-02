@@ -310,6 +310,19 @@ input:focus {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.benefits_selling .benefits_table .table_left {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px 0 0 0;
+}
+
+.benefits_selling .benefits_table .table_right {
+    border-top: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    border-radius: 0 8px 0 0;
+}
+
+
 .benefits_selling .benefits_table .table_th {
     font-weight: 700;
     font-size: 20px;
@@ -317,17 +330,9 @@ input:focus {
     color: #212121;
     text-align: center;
     padding: 16px 24px;
-    border: 1px solid #E0E0E0;
-
+    border-bottom: 1px solid #E0E0E0;
 }
 
-.benefits_selling .benefits_table #th1 {
-    border-radius: 8px 0px 0px 0px !important;
-}
-
-.benefits_selling .benefits_table #th2 {
-    border-radius: 0px 8px 0px 0px !important;
-}
 
 .benefits_selling .benefits_table .table_td {
     display: flex;
@@ -338,7 +343,12 @@ input:focus {
     line-height: 19px;
     color: #212121;
     padding: 16px 24px;
-    border: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+
+.benefits_selling .benefits_table .table_td:last-child {
+    border-bottom: none;
 }
 
 /* faqs section css */
@@ -389,8 +399,9 @@ input:focus {
 }
 
 hr {
-    color: #E4E4E4;
+    color: #E0E0E0;
     height: 1px;
+    margin: 0;
 }
 
 .accordion-button {
@@ -530,6 +541,7 @@ footer p {
 
     .why_sell .card_collection {
         grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
     }
 
     .accordion-header .accordion-button {
@@ -549,6 +561,12 @@ footer p {
     .benefits_selling .benefits_table {
         grid-template-columns: repeat(1, 1fr);
         gap: 24px;
+    }
+    .benefits_selling .benefits_table .table_right .table_th{
+        border-left: 1px solid #E0E0E0;
+    }
+    .benefits_selling .benefits_table .table_right .table_td{
+        border-left: 1px solid #E0E0E0;
     }
 
     .faqs .header_content h1 {
