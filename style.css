@@ -489,10 +489,15 @@ footer p {
     .why_sell .card_collection .single_card p {
         font-weight: 700;
         font-size: 16px;
+        line-height: 19px;
     }
 
     .why_sell .card_collection {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .accordion-header .accordion-button {
+        padding: 16px;
     }
 
     .benefits_selling .header_content h1 {
