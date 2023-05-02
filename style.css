@@ -521,6 +521,7 @@ footer p {
 
     .how_works .card_collection {
         grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
     }
 
     .why_sell .header_content h1 {
@@ -562,10 +563,12 @@ footer p {
         grid-template-columns: repeat(1, 1fr);
         gap: 24px;
     }
-    .benefits_selling .benefits_table .table_right .table_th{
+
+    .benefits_selling .benefits_table .table_right .table_th {
         border-left: 1px solid #E0E0E0;
     }
-    .benefits_selling .benefits_table .table_right .table_td{
+
+    .benefits_selling .benefits_table .table_right .table_td {
         border-left: 1px solid #E0E0E0;
     }
 
